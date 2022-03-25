@@ -12,7 +12,7 @@ function getNumberInfo() {
         txt += `Product is ${specialPythagoreanTriplet(num)}.`;
     }
 
-    // Display Information in the browser
+    // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
 
