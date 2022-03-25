@@ -13,7 +13,7 @@ Information at [Project Euler 009](https://projecteuler.net/problem=9)
 
 **Getting Started**
 
-Enter a whole number between 6 and 10000 in the input field and click on the Submit Button.  You will see the number that you have entered, as well as the product, unless you have made an invalid input.  For example, if you entered the number 24, you would get the product of 480.  Click on the Reset Button to clear the information or to start again.
+Enter a whole number between 12 and 10000 in the input field and click on the Submit Button.  You will see the number that you have entered, as well as the product, unless you have made an invalid input.  For example, if you entered the number 24, you would get the product of 480.  Click on the Reset Button to clear the information or to start again.
 
 **User Stories**
 
@@ -22,7 +22,7 @@ As a user, I expect to get an error message, if I do any of:
 
 - Not enter anything in the input field
 - Entering text that is not a number (e.g. bus)
-- Entering a number less than 6 or greater than 10000
+- Entering a number less than 12 or greater than 10000
 - Entering a number, but it is not an integer
 
 As a user, I expect the function `specialPythagoreanTriplet(24)` to return a number.
