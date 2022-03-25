@@ -10,6 +10,38 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <!-- Set Up Header -->
+    <header class="container-fluid text-center">
+        <h1>Project Euler 009</h1>
+        <h2>Special Pythagorean Triplet</h2>
+    </header>
+
+    <!-- Set Up Instructions -->
+    <section class="container-fluid instructions">
+        <p>A Pythagorean Triplet is a set of three natural numbers, a &lt; b &lt; c, for which</p>
+        <!-- Include Superscripts -->
+        <p><span class="terms">a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></span></p>
+        <p>For example, 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</sup></p>
+        <p>There exacts exactly one Pythagorean Triplet for which a + b + c = 1000.  Find the product abc, such that a+b+c=n.</p>
+    </section>
+
+    <!-- Set Up Form-->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 6 and 1000 (e.g. 1000)" title="Enter whole number between 6 and 1000 (e.g. 1000" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" onclick="getNumberInfo()" class="btn btn-info">Submit</button>
+                <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
+            </article>
+        </form>
+
+        
+    </section>
 </body>
 </html>
