@@ -35,7 +35,7 @@ As a user, I expect the function `specialPythagoreanTriplet(1000)` to return 318
 
 **Information Architecture**
 
-The function `specialPythagoreanTriplet(n)` returns a number, where `n` is a number between 6 and 10000.
+The function `specialPythagoreanTriplet(n)` returns a number (integer), where `n` is a number between 12 and 10000.  If there is no solution, undefined is returned.
 
 ## Features
 
