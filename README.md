@@ -1,6 +1,6 @@
 # Project Euler 009 - Special Pythagorean Triplet
 
-A Pythagorean Triplet is a set of three natural numbers, a < b < c, for which a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.
+A Pythagorean Triplet is a set of three natural numbers, `a < b < c`, for which a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.
 
 For example, 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</sup>.
 
@@ -35,7 +35,7 @@ As a user, I expect the function `specialPythagoreanTriplet(1000)` to return 318
 
 **Information Architecture**
 
-The function `specialPythagoreanTriplet(n)` returns a number (integer), where `n` is a number between 12 and 10000.  If there is no solution, undefined is returned.
+The function `specialPythagoreanTriplet(n)` returns a number (integer), where `n` is a number between 12 and 10000.  If there is no Pythagorean Triplet, for which a + b + c = n, undefined is returned.
 
 ## Features
 
