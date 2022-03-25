@@ -40,3 +40,26 @@ The function `specialPythagoreanTriplet(n)` returns a number, where `n` is a num
 ## Features
 
 Allows the user to enter a number, as well as getting the product.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.1.3 and Google Fonts.
+
+## Testing
+
+Ensure that all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-009) at the main branch.
+
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [FreeCodeCamp](https://www.freecodecamp.org)
+- [Project Euler](https://projecteuler.net)
