@@ -19,12 +19,11 @@ Enter a whole number between 6 and 10000 in the input field and click on the Sub
 
 As a user, I expect to get an error message, if I do any of:
 
-<ul>
-    <li>Not enter anything in the input field</li>
-    <li>Entering text that is not a number (e.g. bus)</li>
-    <li>Entering a number less than 6 or greater than 10000</li>
-    <li>Entering a number, but it is not an integer</li>
-</ul>
+
+- Not enter anything in the input field
+- Entering text that is not a number (e.g. bus)
+- Entering a number less than 6 or greater than 10000
+- Entering a number, but it is not an integer
 
 As a user, I expect the function `specialPythagoreanTriplet(24)` to return a number.
 
@@ -38,3 +37,6 @@ As a user, I expect the function `specialPythagoreanTriplet(1000)` to return 318
 
 The function `specialPythagoreanTriplet(n)` returns a number, where `n` is a number between 6 and 10000.
 
+## Features
+
+Allows the user to enter a number, as well as getting the product.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
